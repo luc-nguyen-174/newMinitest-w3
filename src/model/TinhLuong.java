@@ -1,2 +1,6 @@
-package model;public interface TinhLuong {
+package model;
+
+public interface TinhLuong {
+    double tinhLuong();
+
 }
