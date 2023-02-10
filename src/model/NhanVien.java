@@ -7,6 +7,9 @@ public abstract class NhanVien implements TinhLuong {
     private String sdt;
     private String email;
 
+    public NhanVien() {
+    }
+
     public NhanVien(int maNv, String tenNv, int tuoi, String sdt, String email) {
         this.maNv = maNv;
         this.tenNv = tenNv;

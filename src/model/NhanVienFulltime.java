@@ -29,6 +29,10 @@ public class NhanVienFulltime extends NhanVien {
         this.tienPhat = tienPhat;
     }
 
+
+    public NhanVienFulltime() {
+    }
+
     public NhanVienFulltime(int maNv, String tenNv, int tuoi, String sdt, String email, int luong, int tienThuong, int tienPhat) {
         super(maNv, tenNv, tuoi, sdt, email);
         this.luong = luong;
